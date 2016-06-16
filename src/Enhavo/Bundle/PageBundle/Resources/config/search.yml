@@ -3,7 +3,7 @@ Enhavo\Bundle\PageBundle\Entity\Page:
     properties:
         title:
             - Plain:
-                weight: 5
+                weight: 32
                 type: title
 
         grid:

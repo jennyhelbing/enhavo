@@ -23,7 +23,7 @@ class Highlight {
     {
         $highlightedText = null;
         $countedCharacters = 0;
-        $pieces = explode('. ', $text);
+        $pieces = explode('.', $text);
 
         foreach($pieces as $piece){
             $pieceWords = explode(" ", $piece);

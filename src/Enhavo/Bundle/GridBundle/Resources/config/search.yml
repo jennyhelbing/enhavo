@@ -13,54 +13,54 @@ Enhavo\Bundle\GridBundle\Entity\CiteText:
     properties:
        cite:
             - Plain:
-                weight: 8
+                weight: 15
                 type: citeText
 
 Enhavo\Bundle\GridBundle\Entity\Picture:
     properties:
        title:
             - Plain:
-                weight: 8
+                weight: 25
                 type: title
        caption:
             - Plain:
-                weight: 8
+                weight: 5
                 type: caption
 
 Enhavo\Bundle\GridBundle\Entity\PicturePicture:
     properties:
        title:
             - Plain:
-                weight: 8
+                weight: 25
                 type: title
        captionLeft:
             - Plain:
-                weight: 8
+                weight: 5
                 type: caption
        captionRight:
             - Plain:
-                weight: 8
+                weight: 5
                 type: caption
 
 Enhavo\Bundle\GridBundle\Entity\Text:
     properties:
        title:
             - Plain:
-                weight: 8
+                weight: 25
                 type: title
        text:
             - Html:
                 weights:
-                  h1: 12
-                  h2: 10
-                  p: 77
+                  h1: 25
+                  h2: 18
+                  p: 15
                 type: text
 
 Enhavo\Bundle\GridBundle\Entity\TextPicture:
     properties:
        title:
             - Plain:
-                weight: 8
+                weight: 25
                 type: title
        text:
             - Html:
@@ -70,18 +70,18 @@ Enhavo\Bundle\GridBundle\Entity\TextText:
     properties:
         title:
             - Plain:
-                weight: 8
+                weight: 25
                 type: title
         titleLeft:
             - Plain:
-                weight: 8
+                weight: 18
                 type: title
         textLeft:
             - Html:
                 type: text
         titleRight:
             - Plain:
-                weight: 8
+                weight: 18
                 type: title
         textRight:
             - Html:
@@ -91,5 +91,5 @@ Enhavo\Bundle\GridBundle\Entity\Video:
     properties:
         title:
             - Plain:
-                weight: 8
+                weight: 20
                 type: title
